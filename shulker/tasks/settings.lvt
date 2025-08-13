@@ -1,0 +1,2 @@
+var gameRoot "X:\Path\To\Your\Game"
+var targetPath "^gameRoot^\resourcepacks\debugging"

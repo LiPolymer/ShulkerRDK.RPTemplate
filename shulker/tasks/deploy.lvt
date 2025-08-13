@@ -1,0 +1,9 @@
+run settings.lvt
+import shulker.magick
+makeCopy .*\.psd
+pbrEx
+psdCvt
+delete ^targetPath^
+copy %project.cache% ^targetPath^
+makeCleanup
+echo "&aDEPLOY SUCCEED!"

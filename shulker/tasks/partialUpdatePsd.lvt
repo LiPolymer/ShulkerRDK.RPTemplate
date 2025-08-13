@@ -1,0 +1,6 @@
+﻿echo "&ePSD DETECTED"
+var dest {path remapper ./src "^path^" "^targetPath^" .png}
+import shulker.magick
+psdcvt "^path^" "^dest^"
+pbrex "^path^" "^dest^"
+var isProceed true

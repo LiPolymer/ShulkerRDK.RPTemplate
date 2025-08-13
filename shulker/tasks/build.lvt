@@ -1,6 +1,4 @@
 echo "=====&3Build - %project.name%&r====="
-#import ext.test
-#break
 import shulker.magick
 makeCopy .*\.psd
 pbrEx

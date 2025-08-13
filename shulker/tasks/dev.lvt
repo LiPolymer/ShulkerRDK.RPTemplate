@@ -1,0 +1,5 @@
+run deploy.lvt
+import shulker.rrt
+pw start
+sh powershell /c ./shulker/local/client.ps1
+pw stop

@@ -1,0 +1,8 @@
+echo "=====&3DeployOnFly - %project.name%&r====="
+run settings.lvt
+var path {list get "%rrt.file%" 1}
+var isProceed false
+check {regex \.psd$ match "^path^"} run partialUpdatePsd.lvt
+check {not ^isProceed^} run partialUpdateDirect.lvt
+import shulker.rrt
+rrt "C:\mcl\.minecraft\versions\1.20.1-Forge-Sandbox"
