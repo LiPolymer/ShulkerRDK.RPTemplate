@@ -111,7 +111,7 @@ After installation, launch the client once and close it. Open the mod configurat
 
 Find the launcher's "Export Launch Script" feature *(using HMCL as an example here, select the target version, then click `Version Management -> Manage -> Generate Launch Script` from the main page)*, and export it as `.ps1` (PowerShell script format) to `./shulker/local/client.ps1` in this repository.
 
-After completion, open `./shulker/tasks/settings.lvt` and modify `X:\Path\To\Your\Game` to your actual path.
+After completion, open `./shulker/tasks/settings.lvt` and modify `X:\Path\To\Your\Game` to your actual path. *(Please check version isolation settings.)*
 
 > [!NOTE]
 > If you installed Paxi in the previous step, change `^gameRoot^\resourcepacks\debugging` to `^gameRoot^\config\paxi\resourcepacks\debugging`

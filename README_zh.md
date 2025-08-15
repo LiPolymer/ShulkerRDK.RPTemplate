@@ -109,7 +109,7 @@ build
 
 找到启动器的 `导出启动脚本` 功能 *(此处以 HMCL 为例, 选中目标版本, 从主页面依次点击 `版本管理 -> 管理 -> 生成启动脚本`)*, 导出为 `.ps1` (PowerShell 脚本格式) 到本仓库内容的 `./shulker/local/client.ps1`
 
-完成后, 打开 `./shulker/tasks/settings.lvt`, 修改其中的 `X:\Path\To\Your\Game` 到您的
+完成后, 打开 `./shulker/tasks/settings.lvt`, 修改其中的 `X:\Path\To\Your\Game` 到您的游戏目录 *(请注意检查版本隔离情况)*
 
 > [!NOTE]
 > 如果您在前面的步骤中安装了 Paxi, 请将`^gameRoot^\resourcepacks\debugging` 修改为 `^gameRoot^\config\paxi\resourcepacks\debugging`
