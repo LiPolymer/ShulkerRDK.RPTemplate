@@ -3,6 +3,8 @@ import shulker.magick
 makeCopy .*\.psd
 pbrEx
 psdCvt
+import shulker.ase
+ase %project.src% %project.cache%
 delete ^targetPath^
 copy %project.cache% ^targetPath^
 makeCleanup

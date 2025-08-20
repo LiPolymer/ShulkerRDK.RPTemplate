@@ -1,6 +1,7 @@
 echo "=====&3Build - %project.name%&r====="
 import shulker.magick
 makeCopy .*\.psd
+copy LICENSE %project.cache%/LICENSE
 pbrEx
 psdCvt
 makePkg
