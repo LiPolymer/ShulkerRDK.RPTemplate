@@ -3,6 +3,7 @@ run settings.lvt
 var path {list get "%rrt.file%" 1}
 var isProceed false
 check {regex \.psd$ match "^path^"} run partialUpdatePsd.lvt
+check {regex \.aseprite$ match "^path^"} run partialUpdateAse.lvt
 check {not ^isProceed^} run partialUpdateDirect.lvt
 import shulker.rrt
 rrt ^gameRoot^

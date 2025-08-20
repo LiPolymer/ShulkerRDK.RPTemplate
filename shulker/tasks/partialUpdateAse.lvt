@@ -1,0 +1,5 @@
+﻿echo "&eASEPSD DETECTED"
+var dest {path remapper ./src "^path^" "^targetPath^" ""}
+import shulker.ase
+ase "^path^" {path dir ^dest^}
+var isProceed true
