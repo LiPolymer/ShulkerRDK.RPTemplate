@@ -9,12 +9,11 @@
 - 基本的 Minecraft 资源包结构
 - 一些 LevitateTask 脚本
 - ShulkerRDK 二进制文件
-  - **ShulkerRDK** 本体 `srdk` `srdk.exe`
-  - **ShulkerRRT** 插件 `./shulker/extension/ShulkerRDK.RRT.dll`
-  - **ResourceMagick** 插件 `./shulker/extension/ShulkerRDK.ResourceMagick.dll`
-
-*（以上二进制文件版本皆为 [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12)）*
-
+  - **ShulkerRDK** [`B0.15`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.15) 本体 `srdk` `srdk.exe`
+  - **ShulkerRRT** [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12) 扩展 `./shulker/extension/ShulkerRDK.RRT.dll`
+  - **ResourceMagick** [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12) 扩展 `./shulker/extension/ShulkerRDK.ResourceMagick.dll`
+  - **AsepriteConverter** [`B0.15`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.15) 扩展 `./shulker/extension/ShulkerRDK.Aseprite.dll`
+  
 *ShulkerRDK 和扩展均基于 [GPLv3](https://www.gnu.org/licenses/quick-guide-gplv3.zh-cn.html) 协议获得许可*
 
 ## 开始使用
@@ -68,11 +67,11 @@ proj chname "My Project"
 
 **迁移到 ShulkerRDK**
 
-> **我使用 `.psd` 作为贴图源文件**
+> **我使用 `.psd` / `.aseprite` 作为贴图源文件**
 >
 > 提前恭喜!您可以直接享受到 ShulkerRDK 带来的重要体验提升之一: **自动转化**
 >
-> 更多细节稍后为您呈现, 现在请将您的所有源文件按照**输出的资源包的目录结构**放置于 `./src` 文件夹中(包括 `*.psd`, `*.json`, `*.mcmeta` 等)
+> 更多细节稍后为您呈现, 现在请将您的所有源文件按照**输出的资源包的目录结构**放置于 `./src` 文件夹中(包括 `*.psd`, `*.aseprite`, `*.json`, `*.mcmeta` 等)
 > 
 
 > **我使用 `.png` 作为贴图源文件**

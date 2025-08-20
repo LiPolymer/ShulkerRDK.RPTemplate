@@ -9,13 +9,12 @@ A project template for resource packs based on [ShulkerRDK](https://github.com/L
 - Basic Minecraft resource pack structure
 - Some LevitateTask scripts
 - ShulkerRDK binary files
-  - **ShulkerRDK** core `srdk` `srdk.exe`
-  - **ShulkerRRT** plugin `./shulker/extension/ShulkerRDK.RRT.dll`
-  - **ResourceMagick** plugin `./shulker/extension/ShulkerRDK.ResourceMagick.dll`
+  - **ShulkerRDK** [`B0.15`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.15) core `srdk` `srdk.exe`
+  - **ShulkerRRT** [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12) extension `./shulker/extension/ShulkerRDK.RRT.dll`
+  - **ResourceMagick** [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12) extension `./shulker/extension/ShulkerRDK.ResourceMagick.dll`
+  - **AsepriteConverter** [`B0.15`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.15) extension `./shulker/extension/ShulkerRDK.Aseprite.dll`
 
-*(All binary files are version [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12))*
-
-*ShulkerRDK and extensions was licensed under [GPLv3](https://www.gnu.org/licenses/quick-guide-gplv3.zh-cn.html)*
+*ShulkerRDK and extensions was licensed under [GPLv3](https://www.gnu.org/licenses/quick-guide-gplv3.en.html)*
 
 ## Getting Started
 #### 0. Obtain the repository contents and launch ShulkerRDK
@@ -70,11 +69,11 @@ We've already prepared the most basic Minecraft resource pack directory structur
 
 **Migrating to ShulkerRDK**
 
-> **I use `.psd` as my texture source files**
+> **I use `.psd` / `.aseprite` as my texture source files**
 >
 > Congratulations in advance! You can directly enjoy one of the important experience improvements brought by ShulkerRDK: **automatic conversion**.
 > 
-> More details will be presented later. For now, place all your source files in the `./src` folder according to the **directory structure of the output resource pack** (including `*.psd`, `*.json`, `*.mcmeta`, etc.).
+> More details will be presented later. For now, place all your source files in the `./src` folder according to the **directory structure of the output resource pack** (including `*.psd`, `*.aseprite`, `*.json`, `*.mcmeta`, etc.).
 > 
 
 > **I use `.png` as my texture source files**
