@@ -1,6 +1,7 @@
 run settings.lvt
 import shulker.magick
 makeCopy .*\.psd
+ifr @version "%project.ver%" %project.cache%/pack.mcmeta
 pbrEx
 psdCvt
 import shulker.ase

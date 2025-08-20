@@ -9,7 +9,7 @@
 - 基本的 Minecraft 资源包结构
 - 一些 LevitateTask 脚本
 - ShulkerRDK 二进制文件
-  - **ShulkerRDK** [`B0.15`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.15) 本体 `srdk` `srdk.exe`
+  - **ShulkerRDK** [`B0.16`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.16) 本体 `srdk` `srdk.exe`
   - **ShulkerRRT** [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12) 扩展 `./shulker/extension/ShulkerRDK.RRT.dll`
   - **ResourceMagick** [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12) 扩展 `./shulker/extension/ShulkerRDK.ResourceMagick.dll`
   - **AsepriteConverter** [`B0.15`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.15) 扩展 `./shulker/extension/ShulkerRDK.Aseprite.dll`

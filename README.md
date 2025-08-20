@@ -9,7 +9,7 @@ A project template for resource packs based on [ShulkerRDK](https://github.com/L
 - Basic Minecraft resource pack structure
 - Some LevitateTask scripts
 - ShulkerRDK binary files
-  - **ShulkerRDK** [`B0.15`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.15) core `srdk` `srdk.exe`
+  - **ShulkerRDK** [`B0.16`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.16) core `srdk` `srdk.exe`
   - **ShulkerRRT** [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12) extension `./shulker/extension/ShulkerRDK.RRT.dll`
   - **ResourceMagick** [`B0.12`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.12) extension `./shulker/extension/ShulkerRDK.ResourceMagick.dll`
   - **AsepriteConverter** [`B0.15`](https://github.com/LiPolymer/ShulkerRDK/releases/tag/B0.15) extension `./shulker/extension/ShulkerRDK.Aseprite.dll`

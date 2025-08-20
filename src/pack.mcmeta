@@ -2,6 +2,6 @@
   "pack": {
     "supported_formats":[1,9999],
     "pack_format": 15,
-    "description": "Template Project \r\n Created with ShukerRDK"
+    "description": "Template Project v@version \r\n Created with ShukerRDK"
   }
 }
