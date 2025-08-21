@@ -6,5 +6,5 @@ ifr @version "%project.ver%" %project.cache%/pack.mcmeta
 pbrEx
 psdCvt
 makePkg
-#makeCleanup
+makeCleanup
 echo "&aBUILD SUCCEED!"
