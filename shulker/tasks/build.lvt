@@ -3,6 +3,8 @@ import shulker.magick
 makeCopy \.(?:psd|aseprite)$
 copy LICENSE %project.cache%/LICENSE
 ifr @version "%project.ver%" %project.cache%/pack.mcmeta
+import shulker.ase
+ase %project.src% %project.cache%
 pbrEx
 psdCvt
 makePkg
