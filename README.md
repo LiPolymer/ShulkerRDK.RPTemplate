@@ -80,6 +80,8 @@ We've already prepared the most basic Minecraft resource pack directory structur
 >
 > Place all your source files in the `./src` folder according to the **directory structure of the output resource pack** (including `*.png`, `*.json`, `*.mcmeta`, etc.).
 > 
+> > Remember to delete the `pack.psd` file, otherwise your project icon will be overidden by this file
+>
 > --- 
 > If you want to switch from `.png` to `.psd` files, you can simply execute the following command:
 > ```
